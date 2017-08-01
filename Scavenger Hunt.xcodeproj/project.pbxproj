@@ -13,6 +13,8 @@
 		65ACC22A1F30EA4300409BF4 /* Scavenger_Hunt.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 65ACC2281F30EA4300409BF4 /* Scavenger_Hunt.xcdatamodeld */; };
 		65ACC22C1F30EA4300409BF4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65ACC22B1F30EA4300409BF4 /* Assets.xcassets */; };
 		65ACC22F1F30EA4300409BF4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65ACC22D1F30EA4300409BF4 /* LaunchScreen.storyboard */; };
+		65ACC2371F30EDD200409BF4 /* Inceptionv3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 65ACC2361F30EDD100409BF4 /* Inceptionv3.mlmodel */; };
+		65ACC2391F30EF0000409BF4 /* Objects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65ACC2381F30EF0000409BF4 /* Objects.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		65ACC22B1F30EA4300409BF4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		65ACC22E1F30EA4300409BF4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		65ACC2301F30EA4300409BF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65ACC2361F30EDD100409BF4 /* Inceptionv3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = Inceptionv3.mlmodel; path = ../../../../Users/jstiesi/Downloads/Inceptionv3.mlmodel; sourceTree = "<group>"; };
+		65ACC2381F30EF0000409BF4 /* Objects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Objects.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,7 @@
 		65ACC2201F30EA4300409BF4 /* Scavenger Hunt */ = {
 			isa = PBXGroup;
 			children = (
+				65ACC2361F30EDD100409BF4 /* Inceptionv3.mlmodel */,
 				65ACC2211F30EA4300409BF4 /* AppDelegate.swift */,
 				65ACC2231F30EA4300409BF4 /* ViewController.swift */,
 				65ACC2251F30EA4300409BF4 /* Main.storyboard */,
@@ -63,6 +68,7 @@
 				65ACC22D1F30EA4300409BF4 /* LaunchScreen.storyboard */,
 				65ACC2301F30EA4300409BF4 /* Info.plist */,
 				65ACC2281F30EA4300409BF4 /* Scavenger_Hunt.xcdatamodeld */,
+				65ACC2381F30EF0000409BF4 /* Objects.swift */,
 			);
 			path = "Scavenger Hunt";
 			sourceTree = "<group>";
@@ -139,6 +145,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				65ACC2241F30EA4300409BF4 /* ViewController.swift in Sources */,
+				65ACC2391F30EF0000409BF4 /* Objects.swift in Sources */,
+				65ACC2371F30EDD200409BF4 /* Inceptionv3.mlmodel in Sources */,
 				65ACC22A1F30EA4300409BF4 /* Scavenger_Hunt.xcdatamodeld in Sources */,
 				65ACC2221F30EA4300409BF4 /* AppDelegate.swift in Sources */,
 			);
